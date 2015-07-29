@@ -14,6 +14,7 @@ namespace TestApp2.Controllers
         public ActionResult Index1()
         {// This code is not from pulled code folder
 //This is secondline.
+//This is third line
             empdetails = new Employeedetails();
             return View(empdetails.GetEmpDetails());
         }
