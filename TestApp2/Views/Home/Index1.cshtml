@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BusinessAPI.BO.Employee>
+@{
+    ViewBag.Title = "Index1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div data-ng-controller="HomeController">
+<input type="text" ng-model="helloAngular" />
+<h1>{{helloAngular}}</h1>
+</div>
+<div>
+<table border="1">
+<tr>
+<td>
+EMPID
+</td>
+<td>
+EMPNAME
+</td>
+<td>
+DESIGNATION
+</td>
+<td>
+SALARY
+</td>
+</tr>
+<tr>
+<td colspan="3">Actions</td>
+</tr>
+@foreach(var emp in Model)
+{
+<tr>
+<td>
+@emp.EmpID
+</td>
+<td>
+@emp.EmpName
+</td>
+<td>
+@emp.Designation
+</td>
+<td>
+@emp.Salary
+</td>
+<td>
+@Html.
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+</tr>
+}
+</table>
+</div>
+

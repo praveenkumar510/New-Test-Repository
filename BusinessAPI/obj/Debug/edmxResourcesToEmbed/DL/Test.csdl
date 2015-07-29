@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="t_employee">
+    <Key>
+      <PropertyRef Name="EmpiD" />
+    </Key>
+    <Property Name="EmpiD" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Designation" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="Int64" />
+  </EntityType>
+  <EntityContainer Name="TestDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="t_employee" EntityType="Self.t_employee" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,7 @@
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\bin\Debug\BusinessAPI.dll.config
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\bin\Debug\BusinessAPI.dll
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\bin\Debug\BusinessAPI.pdb
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\bin\Debug\EntityFramework.dll
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\bin\Debug\EntityFramework.xml
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\obj\Debug\BusinessAPI.dll
+C:\Users\Praveen kumar\Downloads\TestApp2\BusinessAPI\obj\Debug\BusinessAPI.pdb
